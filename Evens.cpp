@@ -7,6 +7,7 @@ int main()
     do
     {
         cin >> num1 >> num2;
+        cout << endl;
     } while (num1 > num2);
 
     num1 += num1 % 2;
